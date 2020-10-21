@@ -1,5 +1,7 @@
 package model;
 
+import java.util.List;
+
 public class Demo {
 	
   public boolean compareString (String str1, String str2) {
@@ -19,7 +21,8 @@ public class Demo {
   }
   
    public static void main(String[] args) {
-	System.out.println("java ");
-	   
+	 List<Integer> nums = null;
+	 if (nums == null ) System.out.println("list enmpty");
+ 	   
 }
 }
